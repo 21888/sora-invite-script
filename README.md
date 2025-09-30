@@ -1,6 +1,5 @@
-# 多线程邀请码提交程序
+# 多线程检测sora2邀请码注册脚本
 
-这个程序将原来的curl命令转换为Python多线程版本，用于批量提交Sora邀请码。
 
 ## 功能特点
 
@@ -15,6 +14,7 @@
 
 1. **准备认证令牌**:
    - 在 `auth.txt` 文件中填入你的认证令牌（Bearer token）
+   - 打开sora页面随便提交一个验证码抓取请求后在请求头里面找到authorization保存
    - 例如: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...`
 
 2. **运行程序**:
